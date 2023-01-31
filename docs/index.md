@@ -18,8 +18,8 @@ print("Hello, World!")
 
 These are diagrams generated with [D2](https://d2lang.com/tour/intro/).
 
-![hello](docs/diagrams/hello.png)
+![hello](diagrams/hello.png)
 
-![blocks](docs/diagrams/blocks.png)
+![blocks](diagrams/blocks.png)
 
-![mpls](docs/diagrams/mpls.png)
+![mpls](diagrams/mpls.png)
