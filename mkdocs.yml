@@ -24,7 +24,10 @@ theme:
         name: Switch to light mode
 
 plugins:
+  - search
   - glightbox:
+  - with-pdf:
+      output_path: ./site.pdf
 
 
 markdown_extensions:
