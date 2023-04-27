@@ -21,6 +21,10 @@ jobs:
         with:
           submodules: true
 
+      - uses: oleksiyrudenko/gha-git-credentials@v2-latest
+        with:
+          token: '${{ secrets.GITHUB_TOKEN }}'
+
       - name: Setup Python
         uses: actions/setup-python@v3
 
