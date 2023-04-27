@@ -1,5 +1,5 @@
 #!/bin/bash
-git fetch origin gh-pages --depth=1
+
 git fetch --tags
 
 list="$(git tag)"
