@@ -12,9 +12,12 @@ jobs:
     name: Build and Deploy Job
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          ref: main
 
-      - name: Fetch tags
-        run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
+      # - name: Fetch tags
+      #   run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
 
       - uses: oleksiyrudenko/gha-git-credentials@v2-latest
         with:
