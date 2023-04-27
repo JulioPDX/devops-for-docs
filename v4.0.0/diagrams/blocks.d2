@@ -1,0 +1,28 @@
+direction: right
+router1
+# Declares a shape inside of another shape
+router1.vrfs
+
+# Can declare the container and child in same line
+router1.vrfs.red
+
+router2.vrfs.red
+
+router1.vrfs.red -- router2.vrfs.red
+
+router3: {
+    vrfs: {
+        yellow {
+            style.fill: yellow
+        }
+    }
+}
+
+explanation: |md
+  # Simple diagram for VRFs
+
+    - red
+    - yellow
+| {
+  near: top-center
+}
