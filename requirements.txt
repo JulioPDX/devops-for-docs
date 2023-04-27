@@ -1,5 +1,6 @@
-mkdocs-material==9.0.9
+mkdocs-material==9.1.8
 mdx-truly-sane-lists==1.3
 mkdocs-with-pdf==0.9.3
 pre-commit==3.0.2
 weasyprint==57.2
+mike
