@@ -23,3 +23,5 @@ These are diagrams generated with [D2](https://d2lang.com/tour/intro/).
 ![blocks](docs/diagrams/blocks.png)
 
 ![mpls](docs/diagrams/mpls.png)
+
+## Something new in version 2.0.0
