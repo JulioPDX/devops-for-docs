@@ -16,4 +16,4 @@ done
 
 mike checkout main
 mike deploy devel
-mike set-default --push $(git describe --tags)
+mike set-default --push $(git describe --tags) --branch hosted
