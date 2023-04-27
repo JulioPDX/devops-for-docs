@@ -1,7 +1,6 @@
 #!/bin/bash
 
-git fetch --tags
-
+git fetch --tags --force
 list="$(git tag)"
 
 # deploy all tags
