@@ -4,4 +4,4 @@ mkdocs-with-pdf==0.9.3
 pre-commit==3.0.2
 weasyprint==57.2
 mike
-glightbox
+mkdocs-glightbox
