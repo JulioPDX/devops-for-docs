@@ -31,7 +31,5 @@ jobs:
       - name: Build And Deploy
         id: builddeploy
         run: |
-          git config --global user.name "${GITHUB_ACTOR}"
-          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           pip3 install -r requirements.txt
           ./tags.sh
